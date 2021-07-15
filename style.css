@@ -1,0 +1,159 @@
+body{
+	background-color: #f6f5f4;
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+section{
+	width: 100%;
+	height: 95vh;
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 5%;
+}
+nav ul{
+	display: flex;
+}
+nav ul li a{
+	margin: 30px;
+	font-family: myraid pro regular;
+	color: 505050;
+	font-size: 15px;
+	font-weight: 700;
+}
+.logo{
+	font-family: RoadTest;
+	color: #000000;
+	font-size: 22px;
+	}
+.active{
+	font-weight: bold;
+	color: #2d2a2a;
+}
+
+.gallery-links h2{
+	font-family: catamaran;
+	font-size: 28px;
+	font-weight: 600;
+	color:#111;
+	text-transform: uppercase;
+}
+.gallery-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+
+.gallery-container a {
+	width: 230px;
+	margin:20px 10px 0;
+}
+.gallery-container a:hover{
+	opacity: 0.8;
+}
+.gallery-container a div{
+	width: 100%;
+	height: 235px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gallery-container a h3{
+	font-family: catamaran;
+	font-size: 20px;
+	font-weight: 700;
+	color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Gallery Container*/
+/* #index-gallery{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-gap:10px;
+}
+#index-gallery .gallery-img{
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+
+}
+*/
+/*Image*/
+/*
+#index-galler .img1{
+	grid-area: img1;
+	backgroud-image: url("../image/img1.jpg");
+}
+
+#index-galler .img2{
+	grid-area: img2;
+	backgroud-image: url("../image/img2.jpg");
+}
+
+#index-galler .img3{
+	grid-area: img3;
+	backgroud-image: url("../image/img3.jpg");
+}
+
+#index-galler .img4{
+	grid-area: img4;
+	backgroud-image: url("../image/img4.jpg");
+}
+
+#index-galler .img5{
+	grid-area: img5;
+	backgroud-image: url("../image/img5.jpg");
+}
+
+#index-galler .img6{
+	grid-area: img6;
+	backgroud-image: url("../image/img6.jpg");
+}
+
+#index-galler .img7{
+	grid-area: img7;
+	backgroud-image: url("../image/img7.jpg");
+}
+*/
